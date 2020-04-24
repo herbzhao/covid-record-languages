@@ -1,7 +1,7 @@
 {
-    "browserErrorMessage": "It seems that you are not using Safari browser on your phone, which will cause problems for recording. Can you switch to Safari?",
-    "submitButtonText": "Submit Form",
-    "submittedNotification": "Form submitted, thank you again!",
+    "browserErrorMessage": "Izgleda da ne koristite Safari pretraživač na Vašem telefonu, to će prouzrokovati problem prilikom snimanja. Da li možete da se prebacite na Safari?",
+    "submitButtonText": "Pošaljite Vaše odgovore",
+    "submittedNotification": "Upitnik je poslat, hvala!",
     "alias": "Srpski",
     "questionList": [{
             "type": "description",
@@ -86,7 +86,7 @@
                 "Bol u telu",
                 "Bol u grlu",
                 "Malaksalost",
-                "Diarrhea",
+                "Dijareja",
                 "Curenje iz nosa",
                 "Nedostatak cula ukusa",
                 "Kijanje",
@@ -102,7 +102,7 @@
                 "Astma",
                 "Bronhitis",
                 "Hronična opstruktivna bolest pluća",
-                "Laryngitis",
+                "Laringitis",
                 "Upala pluća",
                 "Drugo",
                 "Ništa od navedenog"
@@ -121,7 +121,7 @@
         },
         {
             "type": "description",
-            "question": "Now we will collect some recordings, please allow browser to use your microphone",
+            "question": "Sada ćemo Vas snimiti, molimo Vas dozvolite pretraživaču da koristi Vaš mikrofon.",
             "handler": "description",
             "options": [
                 ""
@@ -144,7 +144,7 @@
         },
         {
             "type": "description",
-            "question": "Please press submit button, thank you!",
+            "question": "Molimo Vas pritisnite pošalji dugme, hvala!",
             "handler": "description",
             "options": [],
             "validation": "required"
