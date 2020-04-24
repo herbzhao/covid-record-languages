@@ -1,7 +1,7 @@
 {
     "browserErrorMessage": "It seems that you are not using Safari browser on your phone, which will cause problems for recording. Can you switch to Safari?",
     "submitButtonText": "Submit Form",
-    "submittedNotification": "Form submitted, thank you again!",
+    "submittedNotification": "Form submitted, thank you again!(test)",
     "alias": "English",
     "questionList": [{
             "type": "description",
