@@ -1,0 +1,153 @@
+{
+    "browserErrorMessage": "It seems that you are not using Safari browser on your phone, which will cause problems for recording. Can you switch to Safari?",
+    "submitButtonText": "Submit Form",
+    "submittedNotification": "Form submitted, thank you again!",
+    "alias": "Srpski",
+    "questionList": [{
+            "type": "description",
+            "question": "Kašljem protiv COVID-19",
+            "handler": "description",
+            "options": [
+                "Naučno istraživanje je pokazalo da postoji mogućnost korišćenja akustičnog signala kašlja da bi se dobile informacije o stanju pacijenta. Mi radimo na sakupljanju baze podataka o kašlju ljudi inficiranih i neinficiranih virusom da bismo videli da li zvuk kašlja izazvanog Covidom-19 ima neke jedinstvene karakteristike. Da li ste voljani da donirate svoj kašalj za borbu protiv pandemije?",
+                "Istraživanje je neprofitno sponzorisano od strane yourscuencebc LTD kao doprinos napretku nauke za dobrobit čovečanstva. Nikakvi lični podaci neće biti uzeti niti sačuvani od strane yourscience LTD"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Pol?",
+            "handler": "gender",
+            "options": [
+                "muški",
+                "ženski",
+                "drugo",
+                "ne bih da se izjasnim"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "What is your age range?",
+            "handler": "age",
+            "options": [
+                "Ispod 10",
+                "10-19",
+                "20-29",
+                "30-39",
+                "40-49",
+                "50-59",
+                "60-69",
+                "70-79",
+                "80+",
+                "ne bih da se izjasnim"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Da li ste se testirali na Covid19 u protekle dve nedelje? I koji su rezultati testa?",
+            "handler": "positive",
+            "options": [
+                "da, pozitivan",
+                "da, negativan",
+                "ne"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Da li imate temperaturu?",
+            "handler": "fever",
+            "options": [
+                "da, vise od 39  ̊C",
+                "da, vise od 37,5  ̊C",
+                "ne"
+            ],
+            "validation": "required"
+
+        },
+        {
+            "type": "dropdown",
+            "question": "Da li kašljete?",
+            "handler": "cough",
+            "options": [
+                "da",
+                "ne"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "checkbox",
+            "question": "Da li imate sledeće simptome? (izaberite sve odgovore koji se odnose na Vas)",
+            "handler": "symptoms",
+            "options": [
+                "Kratak dah",
+                "Glavobolja",
+                "Bol u telu",
+                "Bol u grlu",
+                "Malaksalost",
+                "Diarrhea",
+                "Curenje iz nosa",
+                "Nedostatak cula ukusa",
+                "Kijanje",
+                "Ništa od navedenog"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "checkbox",
+            "question": "Da li tenutno bolujete od bilo koje bolesti respiratorinh organa? (izaberite sve odgovore koji se odnose na Vas)",
+            "handler": "diagnosed",
+            "options": [
+                "Astma",
+                "Bronhitis",
+                "Hronična opstruktivna bolest pluća",
+                "Laryngitis",
+                "Upala pluća",
+                "Drugo",
+                "Ništa od navedenog"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Da li ste pušač?",
+            "handler": "smoke",
+            "options": [
+                "da",
+                "ne"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "description",
+            "question": "Now we will collect some recordings, please allow browser to use your microphone",
+            "handler": "description",
+            "options": [
+                ""
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "recording",
+            "question": "Sada je vreme da snimite svoj kašalj. Što više podataka prikupimo, to bolje, tako da Vas molimo da snimite svoj kašalj tri puta.",
+            "handler": "recordCough",
+            "options": [],
+            "validation": "required"
+        },
+        {
+            "type": "recording",
+            "question": "Da bismo imali uzorak Vašeg glasa,  molimo Vas snimite sebe kako brojite od 1 do 20. ",
+            "handler": "recordVoice",
+            "options": [],
+            "validation": "required"
+        },
+        {
+            "type": "description",
+            "question": "Please press submit button, thank you!",
+            "handler": "description",
+            "options": [],
+            "validation": "required"
+        }
+    ]
+}

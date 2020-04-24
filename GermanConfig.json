@@ -1,0 +1,153 @@
+{
+    "browserErrorMessage": "Es scheint, dass Sie unter IOS keinen Safari-Browser verwenden, was zu Problemen bei der Aufnahme führen wird. Können Sie zur Safari wechseln?",
+    "submitButtonText": "Senden Sie das Formular",
+    "submittedNotification": "Formular eingereicht, nochmals vielen Dank!",
+    "alias": "Deutsche",
+    "questionList": [{
+        "type": "description",
+        "question": "Husten gegen COVID-19",
+        "handler": "description",
+        "options": [
+            "Jüngste Untersuchungen legen nahe, dass die akustischen Eigenschaften von Hustengeräuschen nützliche Hinweise auf den Gesundheitszustand eines Patienten liefern können. Wir sind dabei, eine Datenbank mit Hustengeräuschen sowohl von infizierten als auch von nicht infizierten Menschen zu erstellen, um zu erforschen, ob der Covid-19 Husten besondere Merkmale aufweist. Wären Sie bereit, für unsere Datenbank zu husten und damit zur Bekämpfung der Pandemie beizutragen?",
+            "Diese Forschung wird ohne Gewinnziel von yoursciencebc LTD gefördert, als Beitrag zum wissenschaftlichen Fortschritt zum Wohle der Menschheit. Es werden keine persönlichen Daten von yoursciencebc LTD erfasst oder gespeichert."
+        ],
+        "validation": "required"
+    },
+    {
+        "type": "dropdown",
+        "question": "Geschlecht",
+        "handler": "gender",
+        "options": [
+            "männlich",
+            "weiblich",
+            "divers",
+            "keine Aussage"
+        ],
+        "validation": "required"
+    },
+    {
+        "type": "dropdown",
+        "question": "Altersgruppe",
+        "handler": "age",
+        "options": [
+            "unter 10",
+            "10-19",
+            "20-29",
+            "30-39",
+            "40-49",
+            "50-59",
+            "60-69",
+            "70-79",
+            "80+",
+            "keine Aussage"
+        ],
+        "validation": "required"
+    },
+    {
+        "type": "dropdown",
+        "question": "Wurden Sie in den letzten 2 Wochen auf  COVID-19 getestet? Was war das Ergebnis des letzten Tests?  ",
+        "handler": "positive",
+        "options": [
+            "Ja, positiv",
+            "Ja, negativ",
+            "Nein"
+        ],
+        "validation": "required"
+    },
+    {
+        "type": "dropdown",
+        "question": "Haben sie Fieber?",
+        "handler": "fever",
+        "options": [
+            "Ja, über 39°C (102°F)",
+            "Ja, über 37.5°C (99.5°F)",
+            "Nein"
+        ],
+        "validation": "required"
+    },
+    {
+        "type": "dropdown",
+        "question": "Haben Sie Husten?",
+        "handler": "cough",
+        "options": [
+            "Ja",
+            "Nein"
+        ],
+        "validation": "required"
+    },
+    {
+        "type": "checkbox",
+        "question": "Haben Sie eines der folgenden Symptome ? (Bitte alle Zutreffenden auswählen.)",
+        "handler": "symptoms",
+        "options": [
+            "Kurzatmigkeit",
+            "Kopfschmerzen",
+            "Gliederschmerzen",
+            "Halsschmerzen",
+            "Abgeschlagenheit",
+            "Durchfall",
+            "Schnupfen",
+            "Verlust des Geruchs- und/oder Geschmackssinns",
+            "Niesen",
+            "Keins davon"
+        ],
+        "validation": "required"
+    },
+    {
+        "type": "checkbox",
+        "question": "Wurde bei Ihnen derzeit eine andere Atemwegserkrankung festgestellt? (Bitte alle Zutreffenden auswählen.)",
+        "handler": "diagnosed",
+        "options": [
+            "Asthma",
+            "Bronchitis",
+            "Chronisch obstruktive Lungenerkrankung",
+            "HNO-Erkrankungen (Luftröhrenentzündung, Kehlkopfentzündung...)",
+            "Lungenentzündung",
+            "Sonstige",
+            "Keine"
+        ],
+        "validation": "required"
+    },
+    {
+        "type": "dropdown",
+        "question": "Rauchen Sie?",
+        "handler": "smoke",
+        "options": [
+            "Ja",
+            "Nein"
+        ],
+        "validation": "required"
+    },
+    {
+        "type": "description",
+        "question": "Jetzt werden wir einige Aufnahmen sammeln, bitte geben Sie die Erlaubnis, Ihr Mikrofon zu benutzen",
+        "handler": "description",
+        "options": [
+            "* Die Aufnahme funktioniert auf Chrome für Android und Safari für iPhone. "
+        ],
+        "validation": "required"
+    },
+    {
+        "type": "recording",
+        "question": "Jetzt möchten wir Sie bitten, Ihren Husten aufzunehmen. Je mehr Daten wir haben desto besser. Bitte machen Sie daher drei getrennte Aufnahmen von jeweils maximal 10 Sekunden.",
+        "handler": "recordCough",
+        "options": [],
+        "validation": "required"
+    },
+    {
+        "type": "recording",
+        "question": "Für die Studie benötigen wir ebenfalls ein Beispiel für den Klang Ihrer Stimme. Machen Sie darum bitte eine weitere Aufnahme, in der sie von 1 bis 20 zählen.",
+        "handler": "recordVoice",
+        "options": [],
+        "validation": "required"
+    },
+    {
+        "type": "description",
+        "question": "Bitte klicken Sie auf die Schaltfläche 'Senden Sie das Formular', danke!",
+        "handler": "description",
+        "options": [
+        ],
+        "validation": "required"
+    }
+]
+}

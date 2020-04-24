@@ -1,0 +1,153 @@
+{
+    "browserErrorMessage": "It seems that you are not using Safari browser on your phone, which will cause problems for recording. Can you switch to Safari?",
+    "submitButtonText": "Submit Form",
+    "submittedNotification": "Form submitted, thank you again!",
+    "alias": "English",
+    "questionList": [{
+            "type": "description",
+            "question": "Coughs against COVID-19",
+            "handler": "description",
+            "options": [
+                "Research suggests that the acoustic qualities of cough sounds may provide useful information about a patient’s condition. We are building a database of coughs from people with and without the virus to see if the Covid19 sound has any special characteristics. Are you willing to donate your cough to the fight against the pandemic?",
+                "This research is sponsored non-profit by yoursciencebc LTD as a contribution to scientific advances for the good of humanity. No personal data will be recorded or stored by yoursciencebc LTD"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "What is your gender?",
+            "handler": "gender",
+            "options": [
+                "Male",
+                "Female",
+                "Other",
+                "Prefer not to say"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "What is your age range?",
+            "handler": "age",
+            "options": [
+                "Under 10",
+                "10-19",
+                "20-29",
+                "30-39",
+                "40-49",
+                "50-59",
+                "60-69",
+                "70-79",
+                "80+",
+                "Prefer not to say"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Have you been tested for COVID-19 in the past 2 weeks? What is the result of your most recent test? ",
+            "handler": "positive",
+            "options": [
+                "Yes, positive",
+                "Yes, negative",
+                "No"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Do you have a fever?",
+            "handler": "fever",
+            "options": [
+                "Yes, more than 39°C (102°F)",
+                "Yes, more than 37.5°C (99.5°F)",
+                "No"
+            ],
+            "validation": "required"
+
+        },
+        {
+            "type": "dropdown",
+            "question": "Do you have a cough?",
+            "handler": "cough",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "checkbox",
+            "question": "Do you have any of these symptoms? (select all that apply)",
+            "handler": "symptoms",
+            "options": [
+                "Shortness of breath",
+                "Headache",
+                "Body aches and pains",
+                "Sore throat",
+                "Fatigue",
+                "Diarrhea",
+                "Runny nose",
+                "Lack of taste",
+                "Sneezing",
+                "None of these"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "checkbox",
+            "question": "Do you currently have any other diagnosed respiratory illness? (please select all that apply)",
+            "handler": "diagnosed",
+            "options": [
+                "Asthma",
+                "Bronchitis",
+                "Chronic obstructive pulmonary disease",
+                "Laryngitis",
+                "Pneumonia",
+                "Other",
+                "None"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Do you smoke?",
+            "handler": "smoke",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "description",
+            "question": "Now we will collect some recordings, please give permission to use your microphone",
+            "handler": "description",
+            "options": [
+                ""
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "recording",
+            "question": "First we want to record your cough. The more data we have the better, so please record three separate times. ",
+            "handler": "recordCough",
+            "options": [],
+            "validation": "required"
+        },
+        {
+            "type": "recording",
+            "question": "To give us a background reading of your voice, please record yourself counting from 1 to 20.",
+            "handler": "recordVoice",
+            "options": [],
+            "validation": "required"
+        },
+        {
+            "type": "description",
+            "question": "Please press submit button, thank you!",
+            "handler": "description",
+            "options": [],
+            "validation": "required"
+        }
+    ]
+}

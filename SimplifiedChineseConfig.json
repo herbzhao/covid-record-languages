@@ -1,0 +1,151 @@
+{
+    "browserErrorMessage": "It seems that you are not using safari browser on IOS, which will cause problems for recording. Can you switch to safari?",
+    "submitButtonText": "提交表格",
+    "submittedNotification": "表格已提交！谢谢",
+    "alias": "简体中文",
+    "questionList": [{
+        "type": "description",
+        "question": "用您的咳嗽声来抗击新冠肺炎！",
+        "handler": "description",
+        "options": [
+            "研究表明利用咳嗽时的声音信息，我们可能利用算法了解病人的身体状况。我们正在收集世界各地人们的咳嗽声（无论你有无新冠肺炎），以来抗击新冠肺炎疫情。您愿意帮助我们吗？",
+            "该研究是由英国 yoursciencebc LTD公司无偿赞助，用于科研和人道目的。 无个人隐私数据会被录取和保存。"
+        ],
+        "validation": "required"
+    },
+    {
+        "type": "dropdown",
+        "question": "性别？",
+        "handler": "gender",
+        "options": [
+            "男",
+            "女",
+            "其他",
+            "保密"
+        ],
+        "validation": "required"
+    },
+    {
+        "type": "dropdown",
+        "question": "年龄？",
+        "handler": "age",
+        "options": [
+            "10岁一下",
+            "10-19",
+            "20-29",
+            "30-39",
+            "40-49",
+            "50-59",
+            "60-69",
+            "70-79",
+            "80+",
+            "保密"
+        ],
+        "validation": "required"
+    },
+    {
+        "type": "dropdown",
+        "question": "过去两周，您有没有做过新冠病毒的检测？",
+        "handler": "positive",
+        "options": [
+            "检测过，结果是阳性",
+            "检测过，结果是阴性",
+            "没有检测过"
+        ],
+        "validation": "required"
+    },
+    {
+        "type": "dropdown",
+        "question": "您有发烧吗？",
+        "handler": "fever",
+        "options": [
+            "超过 39°C",
+            "37.5 - 39°C 之间",
+            "没有"
+        ],
+        "validation": "required"
+
+    },
+    {
+        "type": "dropdown",
+        "question": "您有咳嗽吗？",
+        "handler": "cough",
+        "options": [
+            "有",
+            "没有"
+        ],
+        "validation": "required"
+    },
+    {
+        "type": "checkbox",
+        "question": "您有如下症状吗？",
+        "handler": "symptoms",
+        "options": [
+            "呼吸短促",
+            "头疼",
+            "身体疼痛",
+            "喉咙疼",
+            "疲惫",
+            "腹泻",
+            "流鼻涕",
+            "失去味觉",
+            "打喷嚏",
+            "无以上症状"
+        ],
+        "validation": "required"
+    },
+    {
+        "type": "checkbox",
+        "question": "您有其他呼吸道疾病吗？",
+        "handler": "diagnosed",
+        "options": [
+            "哮喘",
+            "支气管炎",
+            "慢性支气管炎，肺气肿及慢性哮喘",
+            "喉炎",
+            "肺炎",
+            "其他疾病",
+            "无"
+        ],
+        "validation": "required"
+    },
+    {
+        "type": "dropdown",
+        "question": "您抽烟吗？",
+        "handler": "smoke",
+        "options": [
+            "抽烟",
+            "不抽烟"
+        ],
+        "validation": "required"
+    },
+    {
+        "type": "description",
+        "question": " 接下来我们需要录音，请允许你的浏览器使用你的麦克风",
+        "handler": "description",
+        "options": [
+        ],
+        "validation": "required"
+    },
+    {
+        "type": "recording",
+        "question": "首先我们需要录您咳嗽的声音，为了更好的效果，请录三次音。",
+        "handler": "recordCough",
+        "options": [],
+        "validation": "required"
+    },
+    {
+        "type": "recording",
+        "question": "现在我们需要了解您的背景音色，请录音读数1-20。",
+        "handler": "recordVoice",
+        "options": [],
+        "validation": "required"
+    },
+    {
+        "type": "description",
+        "question": "表格填写完毕，请按提交表格！谢谢",
+        "handler": "description",
+        "options": [],
+        "validation": "required"
+    }
+]}
