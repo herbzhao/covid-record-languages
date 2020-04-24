@@ -1,7 +1,7 @@
 {
     "browserErrorMessage": "Es scheint, dass Sie unter IOS keinen Safari-Browser verwenden, was zu Problemen bei der Aufnahme führen wird. Können Sie zur Safari wechseln?",
     "submitButtonText": "Senden Sie das Formular",
-    "submittedNotification": "Formular eingereicht, nochmals vielen Dank!",
+    "submittedNotification": "Formular eingereicht, nochmals vielen. Danke!",
     "alias": "Deutsche",
     "questionList": [{
         "type": "description",
