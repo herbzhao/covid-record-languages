@@ -8,7 +8,7 @@
             "question": "Kašljem protiv COVID-19",
             "handler": "description",
             "options": [
-                "Naučno istraživanje je pokazalo da postoji mogućnost korišćenja akustičnog signala kašlja da bi se dobile informacije o stanju pacijenta. Mi radimo na sakupljanju baze podataka o kašlju ljudi inficiranih i neinficiranih virusom da bismo videli da li zvuk kašlja izazvanog Covidom-19 ima neke jedinstvene karakteristike. Da li ste voljani da donirate svoj kašalj za borbu protiv pandemije?",
+                "Naučno istraživanje je pokazalo da postoji mogućnost korišćenja akustičnog signala kašlja da bi se dobile informacije o stanju pacijenta. Mi radimo na sakupljanju baze podataka o kašlju ljudi inficiranih i neinficiranih virusom da bismo videli da li zvuk kašlja izazvanog Covidom-19 ima neke jedinstvene karakteristike. Da li ste voljni da donirate svoj kašalj za borbu protiv pandemije?",
                 "Istraživanje je neprofitno sponzorisano od strane yourscuencebc LTD kao doprinos napretku nauke za dobrobit čovečanstva. Nikakvi lični podaci neće biti uzeti niti sačuvani od strane yourscience LTD"
             ],
             "validation": "required"
@@ -27,7 +27,7 @@
         },
         {
             "type": "dropdown",
-            "question": "What is your age range?",
+            "question": "Vaš uzrast?",
             "handler": "age",
             "options": [
                 "Ispod 10",

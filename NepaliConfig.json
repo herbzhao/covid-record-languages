@@ -1,7 +1,7 @@
 {
-    "browserErrorMessage": "It seems that you are not using safari browser on IOS, which will cause problems for recording. Can you switch to safari?",
-    "submitButtonText": "Submit Form",
-    "submittedNotification": "Form submitted, thank you again!",
+    "browserErrorMessage": "यस्तो देखिन्छ कि तपाईं आईओएसमा सफारी ब्राउजर प्रयोग गरिरहनु भएको छैन, जसले रेकर्डिङको लागि समस्या उत्पन्न गर्दछ। के तपाईं सफारीमा स्विच गर्न सक्नुहुन्छ?",
+    "submitButtonText": "फारम बुझाउनुहोस्",
+    "submittedNotification": "फारम बुझाइयो, पुनः धन्यवाद!",
     "alias": "नेपाली",
     "questionList": [{
     "type": "description",
@@ -79,4 +79,10 @@
     "handler": "recordVoice",
     "options": [],
     "validation": "required"
-}]}
+},{
+    "type": "description",
+    "question": "कृपया सबमिट बटन थिच्नुहोस, धन्यवाद!",
+    "handler": "description",
+    "options": [],
+    "validation": "required"
+    }]}
