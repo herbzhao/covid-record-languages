@@ -95,6 +95,14 @@
             "validation": "required"
         },
         {
+            "type": "datepicker",
+            "question": "When did you first develop these symptoms? (if there is any)",
+            "handler": "symptomDate",
+            "options": ["Clear selected date"
+            ],
+            "validation": "required"
+        },
+        {
             "type": "checkbox",
             "question": "Do you currently have any other diagnosed respiratory illness? (please select all that apply)",
             "handler": "diagnosed",

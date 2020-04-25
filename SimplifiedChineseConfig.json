@@ -95,6 +95,14 @@
         "validation": "required"
     },
     {
+        "type": "datepicker",
+        "question": "如果您有任何症状，症状是什么时候出现的 ？",
+        "handler": "symptomDate",
+        "options": ["清除已选日期"
+        ],
+        "validation": "required"
+    },
+    {
         "type": "checkbox",
         "question": "您有其他呼吸道疾病吗？",
         "handler": "diagnosed",
