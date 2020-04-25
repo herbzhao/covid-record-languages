@@ -1,7 +1,7 @@
 {
-    "browserErrorMessage": "It seems that you are not using Safari browser on your phone, which will cause problems for recording. Can you switch to Safari?",
-    "submitButtonText": "POŠALJITE VAŠE ODGOVORE",
-    "submittedNotification": "Form submitted, thank you again!",
+    "browserErrorMessage": "Izgleda da ne koristite Safari pretraživač na Vašem telefonu, to će prouzrokovati problem prilikom snimanja. Možete li se prebaciti na Safari?",
+    "submitButtonText": "Pošaljite Vaše odgovore",
+    "submittedNotification": "Upitnik je uspješno primljen, hvala!",
     "alias": "Hrvatski",
     "questionList": [{
             "type": "description",
