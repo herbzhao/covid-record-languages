@@ -143,7 +143,7 @@
         },
         {
             "type": "description",
-            "question": "Sad možete pritisniti pošalji dugme, hvala!",
+            "question": "Sad možete pritisnuti pošalji dugme, hvala!",
             "handler": "description",
             "options": [],
             "validation": "required"
