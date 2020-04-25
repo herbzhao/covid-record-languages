@@ -4,151 +4,150 @@
     "submittedNotification": "Formulier ingediend, nogmaals bedankt!",
     "alias": "Nederlandse",
     "questionList": [{
-        "type": "description",
-        "question": "Hoesten om Covid-19 te overwinnen",
-        "handler": "description",
-        "options": [
-            "Recent onderzoek heeft aangetoond dat het akoestische spectrum van een hoest interessante informatie kan bevatten over de gezondheid van een patiënt. We zijn momenteel een database aan het ontwikkelen met opnames van hoestgeluiden van mensen die zowel positief als negatief testen op covid-19. Dit om te bepalen of de hoest die geassocieerd is met het Coronavirus speciale kenmerken bevat.",
-            "Bent u vrijwilliger om uw hoest te laten opnemen met als doel deze pandemie te bestrijden?"
-        ],
-        "validation": "required"
-    },
-    {
-        "type": "dropdown",
-        "question": "Bent u?",
-        "handler": "gender",
-        "options": [
-            "Een man",
-            "Een vrouw",
-            "Ander geslacht",
-            "Ik verkies hier niet op te antwoorden"
-        ],
-        "validation": "required"
-    },
-    {
-        "type": "dropdown",
-        "question": "Hoe oud bent u?",
-        "handler": "age",
-        "options": [
-            "Jonger dan 10 jaar",
-            "Tussen 10 en 19 jaar",
-            "Tussen 20 en 29 jaar",
-            "Tussen 30 en 39 jaar",
-            "Tussen 40 en 49 jaar",
-            "Tussen 50 en 59 jaar",
-            "Tussen 60 en 69 jaar",
-            "Tussen 70 en 79 jaar",
-            "Ouder dan 80 jaar",
-            "Ik verkies hier niet op te antwoorden"
-        ],
-        "validation": "required"
-    },
-    {
-        "type": "dropdown",
-        "question": "Hebt u zich in de afgelopen 15 dagen laten testen op Covid-19? Wat was hiervan het resultaat?",
-        "handler": "positive",
-        "options": [
-            "Ja. Positief resultaat",
-            "Ja. Negatief resultaat",
-            "Nee"
-        ],
-        "validation": "required"
-    },
-    {
-        "type": "dropdown",
-        "question": "Heeft u koorts?",
-        "handler": "fever",
-        "options": [
-            "Ja, meer dan 39 °C",
-            "Ja, boven 37,5 °C",
-            "Nee"
-        ],
-        "validation": "required"
+            "type": "description",
+            "question": "Hoesten om Covid-19 te overwinnen",
+            "handler": "description",
+            "options": [
+                "Recent onderzoek heeft aangetoond dat het akoestische spectrum van een hoest interessante informatie kan bevatten over de gezondheid van een patiënt. We zijn momenteel een database aan het ontwikkelen met opnames van hoestgeluiden van mensen die zowel positief als negatief testen op covid-19. Dit om te bepalen of de hoest die geassocieerd is met het Coronavirus speciale kenmerken bevat.",
+                "Bent u vrijwilliger om uw hoest te laten opnemen met als doel deze pandemie te bestrijden?"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Bent u?",
+            "handler": "gender",
+            "options": [
+                "Een man",
+                "Een vrouw",
+                "Ander geslacht",
+                "Ik verkies hier niet op te antwoorden"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Hoe oud bent u?",
+            "handler": "age",
+            "options": [
+                "Jonger dan 10 jaar",
+                "Tussen 10 en 19 jaar",
+                "Tussen 20 en 29 jaar",
+                "Tussen 30 en 39 jaar",
+                "Tussen 40 en 49 jaar",
+                "Tussen 50 en 59 jaar",
+                "Tussen 60 en 69 jaar",
+                "Tussen 70 en 79 jaar",
+                "Ouder dan 80 jaar",
+                "Ik verkies hier niet op te antwoorden"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Hebt u zich in de afgelopen 15 dagen laten testen op Covid-19? Wat was hiervan het resultaat?",
+            "handler": "positive",
+            "options": [
+                "Ja. Positief resultaat",
+                "Ja. Negatief resultaat",
+                "Nee"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Heeft u koorts?",
+            "handler": "fever",
+            "options": [
+                "Ja, meer dan 39 °C",
+                "Ja, boven 37,5 °C",
+                "Nee"
+            ],
+            "validation": "required"
 
-    },
-    {
-        "type": "dropdown",
-        "question": "Hoest u?",
-        "handler": "cough",
-        "options": [
-            "Ja",
-            "Nee"
-        ],
-        "validation": "required"
-    },
-    {
-        "type": "checkbox",
-        "question": "Heeft u één van onderstaande symptomen? (Vink alles aan wat van toepassing is)",
-        "handler": "symptoms",
-        "options": [
-            "Kortademigheid",
-            "Hoofdpijn",
-            "Pijn aan de ledematen",
-            "Keelpijn",
-            "Vermoeidheid",
-            "Diarree",
-            "Lopende neus",
-            "Geur- en/of smaakverlies",
-            "Niezen",
-            "Geen van de bovenvermelde symptomen"
-        ],
-        "validation": "required"
-    },
-    {
-        "type": "checkbox",
-        "question": "Lijdt u momenteel aan een andere gediagnosticeerde ademhalingsziekte? (Vink alles aan wat van toepassing is)",
-        "handler": "diagnosed",
-        "options": [            
-            "Astma",
-            "Bronchitis",
-            "Chronische obstructieve longziekte (COPD)",
-            "Neus-, keel- en/of oorziekte (tracheïtis, laryngitis ...)",
-            "Longontsteking",
-            "Overige",
-            "Neen, geen enkele"
-        ],
-        "validation": "required"
-    },
-    {
-        "type": "dropdown",
-        "question": "Bent u een roker?",
-        "handler": "smoke",
-        "options": [
-            "Ja",
-            "Nee"
-        ],
-        "validation": "required"
-    },
-    {      
-        "type": "description",
-        "question": "Nu gaan we wat opnames verzamelen, geef toestemming om je microfoon te gebruiken",
-        "handler": "description",
-        "options": [
-            "* Opnemen werkt in Chrome voor Android en Safari voor iPhone. "
-        ],
-        "validation": "required"
-    },
-    {
-        "type": "recording",
-        "question": "Het is nu tijd om uw hoest op te nemen. Hoe meer gegevens we hebben, hoe beter ons model zal zijn. Mogen we u vriendelijk vragen deze 3 keer op te nemen alstublieft? Elke opname heeft een maximale duur van 10 seconden.",
-        "handler": "recordCough",
-        "options": [],
-        "validation": "required"
-    },
-    {
-        "type": "recording",
-        "question": "Om ons ook de kenmerken van uw stem te geven, die essentieel zijn voor deze studie, kan u zich ook laten registreren al tellend van 1 tot 20.",
-        "handler": "recordVoice",
-        "options": [],
-        "validation": "required"
-    },
-    {
-        "type": "description",
-        "question": "Druk op de knop verzenden, bedankt",
-        "handler": "description",
-        "options": [
-        ],
-        "validation": "required"
-    }
-]
+        },
+        {
+            "type": "dropdown",
+            "question": "Hoest u?",
+            "handler": "cough",
+            "options": [
+                "Ja",
+                "Nee"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "checkbox",
+            "question": "Heeft u één van onderstaande symptomen? (Vink alles aan wat van toepassing is)",
+            "handler": "symptoms",
+            "options": [
+                "Kortademigheid",
+                "Hoofdpijn",
+                "Pijn aan de ledematen",
+                "Keelpijn",
+                "Vermoeidheid",
+                "Diarree",
+                "Lopende neus",
+                "Geur- en/of smaakverlies",
+                "Niezen",
+                "Geen van de bovenvermelde symptomen"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "checkbox",
+            "question": "Lijdt u momenteel aan een andere gediagnosticeerde ademhalingsziekte? (Vink alles aan wat van toepassing is)",
+            "handler": "diagnosed",
+            "options": [
+                "Astma",
+                "Bronchitis",
+                "Chronische obstructieve longziekte (COPD)",
+                "Neus-, keel- en/of oorziekte (tracheïtis, laryngitis ...)",
+                "Longontsteking",
+                "Overige",
+                "Neen, geen enkele"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Bent u een roker?",
+            "handler": "smoke",
+            "options": [
+                "Ja",
+                "Nee"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "description",
+            "question": "Nu gaan we wat opnames verzamelen, geef toestemming om je microfoon te gebruiken",
+            "handler": "description",
+            "options": [
+                "* Opnemen werkt in Chrome voor Android en Safari voor iPhone. "
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "recording",
+            "question": "Het is nu tijd om uw hoest op te nemen. Hoe meer gegevens we hebben, hoe beter ons model zal zijn. Mogen we u vriendelijk vragen deze 3 keer op te nemen alstublieft? Elke opname heeft een maximale duur van 10 seconden.",
+            "handler": "recordCough",
+            "options": [],
+            "validation": "required"
+        },
+        {
+            "type": "recording",
+            "question": "Om ons ook de kenmerken van uw stem te geven, die essentieel zijn voor deze studie, kan u zich ook laten registreren al tellend van 1 tot 20.",
+            "handler": "recordVoice",
+            "options": [],
+            "validation": "required"
+        },
+        {
+            "type": "description",
+            "question": "Druk op de knop verzenden, bedankt",
+            "handler": "description",
+            "options": [],
+            "validation": "required"
+        }
+    ]
 }

@@ -3,152 +3,151 @@
     "submitButtonText": "Soumettre le formulaire",
     "submittedNotification": "Formulaire soumis, merci encore!",
     "alias": "Français",
-    "questionList": 
-        [{
-                "type": "description",
-                "question": "Toussons pour vaincre le Covid19",
-                "handler": "description",
-                "options": [
-                    "Des recherches récentes ont montré que le spectre acoustique de la toux pouvait contenir des informations intéressantes sur l’état de santé d’un patient. Nous sommes en train de construire une banque de données composée d’enregistrements de sons de toux provenant de personnes positives et négatives au Covid19 afin de déterminer si la toux liée à ce coronavirus contient des caractéristiques spéciales. Êtes-vous volontaire pour donner l’enregistrement de votre toux afin de combattre la pandémie?",
-                    "Cette recherche est parrainée à but non lucratif par yoursciencebc LTD en tant que contribution au progrès scientifique pour le bien de l'humanité. Aucune donnée personnelle ne sera enregistrée ou stockée par yoursciencebc LTD."
-                ],
-                "validation": "required"
-            },
-            {
-                "type": "dropdown",
-                "question": "Etes-vous?",
-                "handler": "gender",
-                "options": [
-                    "Un homme",
-                    "Une femme",
-                    "Autre genre",
-                    "Je préfère ne pas répondre"
-                ],
-                "validation": "required"
-            },
-            {
-                "type": "dropdown",
-                "question": "Quel age avez-vous?",
-                "handler": "age",
-                "options": [
-                    "Moins de 10 ans",
-                    "10-19",
-                    "20-29",
-                    "30-39",
-                    "40-49",
-                    "50-59",
-                    "60-69",
-                    "70-79",
-                    "Plus de 80 ans",
-                    "Je préfère ne pas répondre"
-                ],
-                "validation": "required"
-            },
-            {
-                "type": "dropdown",
-                "question": "Avez-vous effectué un test au Covid19 dans les 15 derniers jours? Quel en a été le résultat?",
-                "handler": "positive",
-                "options": [
-                    "Oui. Résultat positif",
-                    "Oui. Résultat négatif",
-                    "Non"
-                ],
-                "validation": "required"
-            },
-            {
-                "type": "dropdown",
-                "question": "Avez-vous de la fièvre?",
-                "handler": "fever",
-                "options": [
-                    "Oui, plus de 39°C",
-                    "Oui, plus de 37.5°C",
-                    "Non"
-                ],
-                "validation": "required"
+    "questionList": [{
+            "type": "description",
+            "question": "Toussons pour vaincre le Covid19",
+            "handler": "description",
+            "options": [
+                "Des recherches récentes ont montré que le spectre acoustique de la toux pouvait contenir des informations intéressantes sur l’état de santé d’un patient. Nous sommes en train de construire une banque de données composée d’enregistrements de sons de toux provenant de personnes positives et négatives au Covid19 afin de déterminer si la toux liée à ce coronavirus contient des caractéristiques spéciales. Êtes-vous volontaire pour donner l’enregistrement de votre toux afin de combattre la pandémie?",
+                "Cette recherche est parrainée à but non lucratif par yoursciencebc LTD en tant que contribution au progrès scientifique pour le bien de l'humanité. Aucune donnée personnelle ne sera enregistrée ou stockée par yoursciencebc LTD."
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Etes-vous?",
+            "handler": "gender",
+            "options": [
+                "Un homme",
+                "Une femme",
+                "Autre genre",
+                "Je préfère ne pas répondre"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Quel age avez-vous?",
+            "handler": "age",
+            "options": [
+                "Moins de 10 ans",
+                "10-19",
+                "20-29",
+                "30-39",
+                "40-49",
+                "50-59",
+                "60-69",
+                "70-79",
+                "Plus de 80 ans",
+                "Je préfère ne pas répondre"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Avez-vous effectué un test au Covid19 dans les 15 derniers jours? Quel en a été le résultat?",
+            "handler": "positive",
+            "options": [
+                "Oui. Résultat positif",
+                "Oui. Résultat négatif",
+                "Non"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Avez-vous de la fièvre?",
+            "handler": "fever",
+            "options": [
+                "Oui, plus de 39°C",
+                "Oui, plus de 37.5°C",
+                "Non"
+            ],
+            "validation": "required"
 
-            },
-            {
-                "type": "dropdown",
-                "question": "Toussez-vous?",
-                "handler": "cough",
-                "options": [
-                    "Oui",
-                    "Non"
-                ],
-                "validation": "required"
-            },
-            {
-                "type": "checkbox",
-                "question": "Ressentez-vous l’un de ces symptômes? (Cochez toutes les cases correspondantes)",
-                "handler": "symptoms",
-                "options": [
-                    "Essoufflement",
-                    "Maux de tête",
-                    "Courbatures et douleurs dans les membres",
-                    "Maux de gorge",
-                    "Fatigue",
-                    "Diarhée",
-                    "Nez qui coule",
-                    "Perte de l’odorat et/ou du goût",
-                    "Eternuements",
-                    "Aucun des symptômes repris ci-dessus"
-                ],
-                "validation": "required"
-            },
-            {
-                "type": "checkbox",
-                "question": "Souffrez-vous actuellement d’une autre maladie respiratoire diagnostiquée? (Cochez toutes les cases correspondantes)",
-                "handler": "diagnosed",
-                "options": [
-                    "Asthme",
-                    "Bronchite",
-                    "Maladie pulmonaire obstructive chronique (MPOC)",
-                    "Maladie ORL (trachéite, laryngite…)",
-                    "Pneumonie",
-                    "Autre",
-                    "Aucune"
-                ],
-                "validation": "required"
-            },
-            {
-                "type": "dropdown",
-                "question": "Etes-vous fumeur?",
-                "handler": "smoke",
-                "options": [
-                    "Oui",
-                    "Non"
-                ],
-                "validation": "required"
-            },
-            {
-                "type": "description",
-                "question": "Nous allons maintenant collecter les enregistrements, veuillez autoriser l'utilisation de votre microphone",
-                "handler": "description",
-                "options": [
-                    "* L'enregistrement fonctionne avec Chrome sur Android et Safari sur iPhone. "
-                ],
-                "validation": "required"
-            },
-            {
-                "type": "recording",
-                "question": "Il est temps maintenant de procéder à l’enregistrement de votre toux. Plus nous avons de données, meilleur sera notre modèle. Pourriez-vous s’il vous plaît vous enregistrer 3 fois? Chaque enregistrement a une durée maximale de 10s.",
-                "handler": "recordCough",
-                "options": [],
-                "validation": "required"
-            },
-            {
-                "type": "recording",
-                "question": "Pour nous donner également les caractéristiques de votre voix indispensables à l’étude, veuillez-vous enregistrer en comptant de 1 à 20.",
-                "handler": "recordVoice",
-                "options": [],
-                "validation": "required"
-            },
-            {
-                "type": "description",
-                "question": "Veuillez appuyer sur le bouton pour soumettre le formulaire, merci!",
-                "handler": "description",
-                "options": [],
-                "validation": "required"
-            }
-        ]
+        },
+        {
+            "type": "dropdown",
+            "question": "Toussez-vous?",
+            "handler": "cough",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "checkbox",
+            "question": "Ressentez-vous l’un de ces symptômes? (Cochez toutes les cases correspondantes)",
+            "handler": "symptoms",
+            "options": [
+                "Essoufflement",
+                "Maux de tête",
+                "Courbatures et douleurs dans les membres",
+                "Maux de gorge",
+                "Fatigue",
+                "Diarhée",
+                "Nez qui coule",
+                "Perte de l’odorat et/ou du goût",
+                "Eternuements",
+                "Aucun des symptômes repris ci-dessus"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "checkbox",
+            "question": "Souffrez-vous actuellement d’une autre maladie respiratoire diagnostiquée? (Cochez toutes les cases correspondantes)",
+            "handler": "diagnosed",
+            "options": [
+                "Asthme",
+                "Bronchite",
+                "Maladie pulmonaire obstructive chronique (MPOC)",
+                "Maladie ORL (trachéite, laryngite…)",
+                "Pneumonie",
+                "Autre",
+                "Aucune"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Etes-vous fumeur?",
+            "handler": "smoke",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "description",
+            "question": "Nous allons maintenant collecter les enregistrements, veuillez autoriser l'utilisation de votre microphone",
+            "handler": "description",
+            "options": [
+                "* L'enregistrement fonctionne avec Chrome sur Android et Safari sur iPhone. "
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "recording",
+            "question": "Il est temps maintenant de procéder à l’enregistrement de votre toux. Plus nous avons de données, meilleur sera notre modèle. Pourriez-vous s’il vous plaît vous enregistrer 3 fois? Chaque enregistrement a une durée maximale de 10s.",
+            "handler": "recordCough",
+            "options": [],
+            "validation": "required"
+        },
+        {
+            "type": "recording",
+            "question": "Pour nous donner également les caractéristiques de votre voix indispensables à l’étude, veuillez-vous enregistrer en comptant de 1 à 20.",
+            "handler": "recordVoice",
+            "options": [],
+            "validation": "required"
+        },
+        {
+            "type": "description",
+            "question": "Veuillez appuyer sur le bouton pour soumettre le formulaire, merci!",
+            "handler": "description",
+            "options": [],
+            "validation": "required"
+        }
+    ]
 }

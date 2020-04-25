@@ -98,8 +98,7 @@
             "type": "datepicker",
             "question": "When did you first develop these symptoms? (if there is any)",
             "handler": "symptomDate",
-            "options": ["Clear selected date"
-            ],
+            "options": ["Clear selected date"],
             "validation": "required"
         },
         {

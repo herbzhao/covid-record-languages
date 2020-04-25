@@ -4,151 +4,151 @@
     "submittedNotification": "Modulo inviato, grazie ancora!",
     "alias": "Italiano",
     "questionList": [{
-        "type": "description",
-        "question": "Un colpo di Tosse contro Covid19",
-        "handler": "description",
-        "options": [
-            "La ricerca suggerisce che le qualità acustiche del suono della tosse possono fornire informazioni utili sulle condizioni dei pazienti. Stiamo costruendo un database con registrazioni di colpi di tosse di persone risultate positive e negative al COVID19 per capire se analizzando lo spettro sonoro della tosse e correlandolo ad altri sintomi sia possibile aiutare i medici in una diagnostica precoce dell’infezione virale. Sei disposto a donare il suono della tua tosse per la ricerca contro la pandemia?",
-            "Questa ricerca e’ sponsorizzata senza fini di lucro da yoursciencebc LTD come contributo al progresso scientifico per il bene dell’umanità. Nessun dato personale sarà registrato o conservato da yoursciencebc LTD."
-        ],
-        "validation": "required"
-    },
-    {
-        "type": "dropdown",
-        "question": "Sesso?",
-        "handler": "gender",
-        "options": [
-            "Uomo",
+            "type": "description",
+            "question": "Un colpo di Tosse contro Covid19",
+            "handler": "description",
+            "options": [
+                "La ricerca suggerisce che le qualità acustiche del suono della tosse possono fornire informazioni utili sulle condizioni dei pazienti. Stiamo costruendo un database con registrazioni di colpi di tosse di persone risultate positive e negative al COVID19 per capire se analizzando lo spettro sonoro della tosse e correlandolo ad altri sintomi sia possibile aiutare i medici in una diagnostica precoce dell’infezione virale. Sei disposto a donare il suono della tua tosse per la ricerca contro la pandemia?",
+                "Questa ricerca e’ sponsorizzata senza fini di lucro da yoursciencebc LTD come contributo al progresso scientifico per il bene dell’umanità. Nessun dato personale sarà registrato o conservato da yoursciencebc LTD."
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Sesso?",
+            "handler": "gender",
+            "options": [
+                "Uomo",
                 "Donna",
                 "Altro",
                 "Preferisco non rispondere"
-        ],
-        "validation": "required"
-    },
-    {
-        "type": "dropdown",
-        "question": "Fascia d'età?",
-        "handler": "age",
-        "options": [
-            "Minori di 10 anni",
-            "10-19",
-            "20-29",
-            "30-39",
-            "40-49",
-            "50-59",
-            "60-69",
-            "70-79",
-            "80+",
-            "Preferisco non rispondere"
-        ],
-        "validation": "required"
-    },
-    {
-        "type": "dropdown",
-        "question": "Hai fatto il tampone per il Covid19 nelle ultime 2 settimane?  Qual è il risultato del tuo test più recente?",
-        "handler": "positive",
-        "options": [
-            "Si, positivo",
-            "Si, negativo",
-            "No"
-        ],
-        "validation": "required"
-    },
-    {
-        "type": "dropdown",
-        "question": "Hai la febbre?",
-        "handler": "fever",
-        "options": [
-            "Sì, più di 39°",
-            "Sì, più di 37.5°",
-            "No"
-        ],
-        "validation": "required"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Fascia d'età?",
+            "handler": "age",
+            "options": [
+                "Minori di 10 anni",
+                "10-19",
+                "20-29",
+                "30-39",
+                "40-49",
+                "50-59",
+                "60-69",
+                "70-79",
+                "80+",
+                "Preferisco non rispondere"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Hai fatto il tampone per il Covid19 nelle ultime 2 settimane?  Qual è il risultato del tuo test più recente?",
+            "handler": "positive",
+            "options": [
+                "Si, positivo",
+                "Si, negativo",
+                "No"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Hai la febbre?",
+            "handler": "fever",
+            "options": [
+                "Sì, più di 39°",
+                "Sì, più di 37.5°",
+                "No"
+            ],
+            "validation": "required"
 
-    },
-    {
-        "type": "dropdown",
-        "question": "Hai la tosse?",
-        "handler": "cough",
-        "options": [
-            "Si",
-            "No"
-        ],
-        "validation": "required"
-    },
-    {
-        "type": "checkbox",
-        "question": "Hai qualcuno di questi sintomi?  (seleziona tutte le risposte pertinenti)",
-        "handler": "symptoms",
-        "options": [
-            "Mancanza di respiro",
-            "Mal di testa",
-            "Dolori muscolari e/o altri dolori",
-            "Gola infiammata",
-            "Affaticamento",
-            "Diarrea",
-            "Raffreddore",
-            "Mancanza di olfatto",
-            "Riduzione gusto",
-            "Nessuno di questi"
-        ],
-        "validation": "required"
-    },
-    {
-        "type": "checkbox",
-        "question": "Attualmente hai altre malattie respiratorie diagnosticate?",
-        "handler": "diagnosed",
-        "options": [
-            "Asma",
-            "Bronchite",
-            "Broncopneumopatia cronica ostruttiva",
-            "Infiammazione alla laringe e/o trachea",
-            "Polmonite",
-            "Altro",
-            "Nessuna"
-        ],
-        "validation": "required"
-    },
-    {
-        "type": "dropdown",
-        "question": "Sei fumatore?",
-        "handler": "smoke",
-        "options": [
-            "Si",
-            "No"
-        ],
-        "validation": "required"
-    },
- {
-        "type": "description",
-        "question": "Ora raccoglieremo alcune registrazioni, ti preghiamo di autorizzare l'uso del tuo microfono",
-        "handler": "description",
-        "options": [
-            "* la registrazione funziona con Chrome su Android e Safari su iPhone "
-        ],
-        "validation": "required"
-    },
+        },
+        {
+            "type": "dropdown",
+            "question": "Hai la tosse?",
+            "handler": "cough",
+            "options": [
+                "Si",
+                "No"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "checkbox",
+            "question": "Hai qualcuno di questi sintomi?  (seleziona tutte le risposte pertinenti)",
+            "handler": "symptoms",
+            "options": [
+                "Mancanza di respiro",
+                "Mal di testa",
+                "Dolori muscolari e/o altri dolori",
+                "Gola infiammata",
+                "Affaticamento",
+                "Diarrea",
+                "Raffreddore",
+                "Mancanza di olfatto",
+                "Riduzione gusto",
+                "Nessuno di questi"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "checkbox",
+            "question": "Attualmente hai altre malattie respiratorie diagnosticate?",
+            "handler": "diagnosed",
+            "options": [
+                "Asma",
+                "Bronchite",
+                "Broncopneumopatia cronica ostruttiva",
+                "Infiammazione alla laringe e/o trachea",
+                "Polmonite",
+                "Altro",
+                "Nessuna"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Sei fumatore?",
+            "handler": "smoke",
+            "options": [
+                "Si",
+                "No"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "description",
+            "question": "Ora raccoglieremo alcune registrazioni, ti preghiamo di autorizzare l'uso del tuo microfono",
+            "handler": "description",
+            "options": [
+                "* la registrazione funziona con Chrome su Android e Safari su iPhone "
+            ],
+            "validation": "required"
+        },
 
-    {
-        "type": "recording",
-        "question": "Ora è il momento di registrare la tua tosse. Più dati abbiamo meglio sarà; ti preghiamo quindi di registrare tre volte separatamente. Per favore, se possibile non eccedete i dieci secondi di registrazione.",
-        "handler": "recordCough",
-        "options": [],
-        "validation": "required"
-    },
-    {
-        "type": "recording",
-        "question": "Per capire il timbro della tua voce, ti preghiamo di registrarti mentre conti da 1 a 20.",
-        "handler": "recordVoice",
-        "options": [],
-        "validation": "required"
-    },
-    {
-        "type": "description",
-        "question": "Si prega di premere il pulsante 'Invia il modulo', grazie!",
-        "handler": "description",
-        "options": [
-        ],
-        "validation": "required"
-    }
-]}
+        {
+            "type": "recording",
+            "question": "Ora è il momento di registrare la tua tosse. Più dati abbiamo meglio sarà; ti preghiamo quindi di registrare tre volte separatamente. Per favore, se possibile non eccedete i dieci secondi di registrazione.",
+            "handler": "recordCough",
+            "options": [],
+            "validation": "required"
+        },
+        {
+            "type": "recording",
+            "question": "Per capire il timbro della tua voce, ti preghiamo di registrarti mentre conti da 1 a 20.",
+            "handler": "recordVoice",
+            "options": [],
+            "validation": "required"
+        },
+        {
+            "type": "description",
+            "question": "Si prega di premere il pulsante 'Invia il modulo', grazie!",
+            "handler": "description",
+            "options": [],
+            "validation": "required"
+        }
+    ]
+}
