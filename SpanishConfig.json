@@ -8,7 +8,7 @@
         "question": "Tose contra el COVID-19",
         "handler": "description",
         "options": [
-            "Las investigaciones sugieren que el espectro acústico de la tos puede proporcionar información útil sobre el estado de un paciente. Estamos construyendo una base de datos de toses de personas con y sin el virus para ver si el sonido del Covid19 tiene alguna característica especial. ¿Estás dispuesto a donar tu tos a la lucha contra la pandemia?",
+            "Las investigaciones sugieren que el espectro acústico de la tos puede proporcionar información útil sobre el estado de un paciente. Estamos construyendo una base de datos de toses de personas con y sin el virus para ver si el sonido del Covid19 tiene alguna característica especial. ¿Está dispuesto a donar su tos a la lucha contra la pandemia?",
             "Esta investigación está patrocinada sin fines de lucro por yoursciencebc LTD como una contribución a los avances científicos para el bien de la humanidad. Ningún dato personal será registrado o almacenado por yoursciencebc LTD."
         ],
         "validation": "required"
@@ -27,7 +27,7 @@
     },
     {
         "type": "dropdown",
-        "question": "¿Cuál es tu rango de edad?",
+        "question": "¿Cuál es su rango de edad?",
         "handler": "age",
         "options": [
             "Menos de 10",
@@ -56,7 +56,7 @@
     },
     {
         "type": "dropdown",
-        "question": "¿Tienes fiebre?",
+        "question": "¿Tiene fiebre?",
         "handler": "fever",
         "options": [
             "Sí, más de 39°C",
@@ -68,7 +68,7 @@
     },
     {
         "type": "dropdown",
-        "question": "¿Tienes tos?",
+        "question": "¿Tiene tos?",
         "handler": "cough",
         "options": [
             "Sí",
