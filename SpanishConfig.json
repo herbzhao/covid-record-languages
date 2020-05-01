@@ -2,7 +2,7 @@
     "browserErrorMessage": "Parece que no está utilizando el navegador Safari en iOS, lo que causará problemas para la grabación. ¿Se puede cambiar a safari?",
     "submitButtonText": "Enviar el Formulario",
     "submittedNotification": "Formulario enviado, gracias de nuevo!",
-    "alias": "española",
+    "alias": "español",
     "questionList": [{
             "type": "description",
             "question": "Tose contra el COVID-19",
