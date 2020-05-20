@@ -14,6 +14,27 @@
             "validation": "required"
         },
         {
+            "type": "textinput",
+            "question": "Per favore inserisca un codice personale che inizia per la lettera L (codice Asst Lodi). E' inoltre pregato di inserire il suo codice personale ad ogni registrazione",
+            "handler": "patient_id",
+            "options": [
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "in quale fase vi trovate?",
+            "handler": "stage",
+            "options": [
+                "pre-ospedaliera",
+                "ospedaliera",
+                "ricoverato",
+                "post ricovero",
+                "dimesso"
+            ],
+            "validation": "required"
+        },
+        {
             "type": "dropdown",
             "question": "Sesso?",
             "handler": "gender",
