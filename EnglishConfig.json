@@ -14,6 +14,14 @@
             "validation": "required"
         },
         {
+            "type": "textinput",
+            "question": "Test textinput?",
+            "handler": "test_textinput",
+            "options": [
+            ],
+            "validation": "required"
+        },
+        {
             "type": "dropdown",
             "question": "What is your gender?",
             "handler": "gender",
