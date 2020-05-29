@@ -1,0 +1,160 @@
+{
+    "browserErrorMessage": "Telefonunuzda Safari tarayıcısı kullanmıyorsanız, kayıt için sorunlara neden olacak gibi görünüyor. Safari'ye geçiş yapabilir misiniz?",
+    "submitButtonText": "Formu Gönder",
+    "submittedNotification": "Form gönderildi, tekrar teşekkürler!",
+    "alias": "Türk",
+    "questionList": [{
+            "type": "description",
+            "question": "COVID-19'a karşı öksürükler",
+            "handler": "description",
+            "options": [
+                "Araştırmalar, öksürük seslerinin akustik özelliklerinin hastanın durumu hakkında yararlı bilgiler sağlayabileceğini göstermektedir. Covid19’a bağlı öksürük sesinin herhangi bir özelliği olup olmadığını görmek için virüslü ve virüssüz insanlardan öksürük seslerini içeren bir veritabanı oluşturuyoruz. Pandemi ile mücadeleye öksürüğünüzü bağışlamak ister misiniz?",
+                "Bu araştırma, insanlığın iyiliği için bilimsel ilerlemelere bir katkı olarak yoursciencebc LTD tarafından kar amacı gütmeden sponsor edilmiştir. Yoursciencebc LTD tarafından hiçbir kişisel bilgi kaydedilmeyecek veya depolanmayacaktır."
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Cinsiyetiniz nedir?",
+            "handler": "gender",
+            "options": [
+                "Erkek",
+                "Kadın",
+                "Diğer",
+                "Belirtmek istemiyorum"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Yaş aralığınız nedir?",
+            "handler": "age",
+            "options": [
+                "10 altı",
+                "10-19",
+                "20-29",
+                "30-39",
+                "40-49",
+                "50-59",
+                "60-69",
+                "70-79",
+                "80+",
+                "Belirtmek istemiyorum"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Son 2 hafta içinde COVID-19 için test edildi mi? En son yaptığınız testin sonucu nedir?",
+            "handler": "positive",
+            "options": [
+                "Evet, pozitif.",
+                "Evet, negatif.",
+                "Hayır."
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Ateşin var mı?",
+            "handler": "fever",
+            "options": [
+                "Evet, 39C üstü (102F)",
+                "Evet, 37.5 üstü (99.5F)",
+                "Hayır."
+            ],
+            "validation": "required"
+
+        },
+        {
+            "type": "dropdown",
+            "question": "Öksürüğün var mı?",
+            "handler": "cough",
+            "options": [
+                "Evet",
+                "Hayır"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "checkbox",
+            "question": "Aşağıdaki belirtilerden herhangi biri var mı? (geçerli olanların tümünü seçin)",
+            "handler": "symptoms",
+            "options": [
+                "Nefes darlığı",
+                "Baş ağrısı",
+                "Vücut ağrıları ve ağrıları",
+                "Boğaz ağrısı",
+                "Yorgunluk",
+                "İshal",
+                "Burun akması",
+                "Tat eksikliği",
+                "Hapşırma",
+                "Bunlardan hiçbiri"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "datepicker",
+            "question": "Bu belirtileri ilk ne zaman geliştirdiniz? (varsa)",
+            "handler": "symptomDate",
+            "options": ["Seçilen tarihi temizle"],
+            "validation": "required"
+        },
+        {
+            "type": "checkbox",
+            "question": "Şu anda başka teşhis edilmiş solunum yolu hastalığınız var mı? (lütfen uygun olanların tümünü seçin)",
+            "handler": "diagnosed",
+            "options": [
+                "Astım",
+                "Bronşit",
+                "Kronik Obstrüktif Akciğer Hastalığı",
+                "Larenjit",
+                "Pnömoni /zatüre",
+                "Diğer",
+                "Yok"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Sigara içiyor musunuz?",
+            "handler": "smoke",
+            "options": [
+                "Evet",
+                "Hayır"
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "description",
+            "question": "Şimdi bazı kayıtlar toplayacağız, lütfen mikrofonunuzu kullanma izni verin.",
+            "handler": "description",
+            "options": [
+                ""
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "recording",
+            "question": "İlk önce öksürüğünüzü kaydetmek istiyoruz. Ne kadar fazla veriye sahip olursak o kadar iyi olur, lütfen üç ayrı kayıt yapın.",
+            "handler": "recordCough",
+            "options": [],
+            "validation": "required"
+        },
+        {
+            "type": "recording",
+            "question": "Bize sesinizin arka plan okumasını vermek için, lütfen kendinizi 1'den 20'ye kadar sayın.",
+            "handler": "recordVoice",
+            "options": [],
+            "validation": "required"
+        },
+        {
+            "type": "description",
+            "question": "Lütfen gönder düğmesine basın, teşekkür ederiz!",
+            "handler": "description",
+            "options": [],
+            "validation": "required"
+        }
+    ]
+}
