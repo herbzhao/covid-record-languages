@@ -14,6 +14,27 @@
             "validation": "required"
         },
         {
+            "type": "textinput",
+            "question": "Please enter your personal code. You are also requested to enter this personal code with each registration",
+            "handler": "patient_id",
+            "options": [
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Which stage are you now in?",
+            "handler": "stage",
+            "options": [
+                "Pre-hospitalization",
+                "Hospitalization",
+                "In intensive care",
+                "In remission",
+                "Post-hospitalization"
+            ],
+            "validation": "required"
+        },
+        {
             "type": "dropdown",
             "question": "What is your gender?",
             "handler": "gender",

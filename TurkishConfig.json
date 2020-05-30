@@ -2,7 +2,7 @@
     "browserErrorMessage": "Telefonunuzda Safari tarayıcısı kullanmıyorsanız, kayıt için sorunlara neden olacak gibi görünüyor. Safari'ye geçiş yapabilir misiniz?",
     "submitButtonText": "Formu Gönder",
     "submittedNotification": "Form gönderildi, tekrar teşekkürler!",
-    "alias": "Türk",
+    "alias": "Türkçe",
     "questionList": [{
             "type": "description",
             "question": "COVID-19'a karşı öksürükler",
@@ -10,6 +10,27 @@
             "options": [
                 "Araştırmalar, öksürük seslerinin akustik özelliklerinin hastanın durumu hakkında yararlı bilgiler sağlayabileceğini göstermektedir. Covid19’a bağlı öksürük sesinin herhangi bir özelliği olup olmadığını görmek için virüslü ve virüssüz insanlardan öksürük seslerini içeren bir veritabanı oluşturuyoruz. Pandemi ile mücadeleye öksürüğünüzü bağışlamak ister misiniz?",
                 "Bu araştırma, insanlığın iyiliği için bilimsel ilerlemelere bir katkı olarak yoursciencebc LTD tarafından kar amacı gütmeden sponsor edilmiştir. Yoursciencebc LTD tarafından hiçbir kişisel bilgi kaydedilmeyecek veya depolanmayacaktır."
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "textinput",
+            "question": "Lütfen kişisel kodunuzu girin. Ayrıca her kayıtta bu kişisel kodu girmeniz istenir.",
+            "handler": "patient_id",
+            "options": [
+            ],
+            "validation": "required"
+        },
+        {
+            "type": "dropdown",
+            "question": "Şu an hangi aşamadasın?",
+            "handler": "stage",
+            "options": [
+                "Önceden hastaneye",
+                "Hastaneye yatma",
+                "Yoğun bakımda",
+                "Remisyonda",
+                "Post-hastaneye"
             ],
             "validation": "required"
         },
@@ -45,7 +66,7 @@
         },
         {
             "type": "dropdown",
-            "question": "Son 2 hafta içinde COVID-19 için test edildi mi? En son yaptığınız testin sonucu nedir?",
+            "question": "Son 2 hafta içinde COVID-19 için test edildiniz mi? En son yaptığınız testin sonucu nedir?",
             "handler": "positive",
             "options": [
                 "Evet, pozitif.",
