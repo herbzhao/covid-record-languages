@@ -16,7 +16,7 @@
             },
           {
             "type": "textinput",
-            "question": "Veuillez saisir votre code personnel. Il est également demandé d'insérer ce code personnel à chaque utilisation de l'application."
+            "question": "Veuillez saisir votre code personnel. Il est également demandé d'insérer ce code personnel à chaque utilisation de l'application.",
             "handler": "patient_id",
             "options": [
             ],
